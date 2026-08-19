@@ -33,6 +33,17 @@ Khởi động lại Codex nếu cần, rồi yêu cầu: `Dùng skill Harness E
 - `SKILL.md`: quy trình làm việc chính.
 - `references/`: quy tắc, kinh nghiệm, và checklist.
 - `scripts/harness-check.ps1`: kiểm tra lint, test, build và runtime audit cho dự án Node.js.
+- `assets/starter-next-supabase/`: bộ code mẫu Next.js có auth, API, Supabase/local store, audit, Excel, xóa an toàn và phân trang.
+
+## Dùng starter source
+
+Sao chép toàn bộ nội dung trong `assets/starter-next-supabase/` sang repo mới, sau đó làm theo README nằm trong starter. Có thể chạy ngay ở chế độ local để làm giao diện; khi dùng thật thì chuyển sang Supabase và chạy migration đi kèm.
+
+Hoặc tạo nhanh một thư mục dự án mới bằng lệnh:
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File scripts/new-harness-project.ps1 -Destination "D:\du-an-moi"
+```
 
 ## Cách dùng script kiểm tra
 

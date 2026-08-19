@@ -27,6 +27,10 @@ Read only the reference needed for the task:
 - `references/knowledge.md`: reusable patterns from HCC: Next.js, Supabase, Vercel, health workflow, audit, export, scanner.
 - `references/checklists.md`: checklists for new features, database changes, CI, deployment, and handoff.
 
+## Starter Source Template
+
+For a new Next.js + Supabase project that needs authentication, paginated APIs, audit history, Excel export, and guarded deletion, copy `assets/starter-next-supabase/` into the new repository or run `scripts/new-harness-project.ps1`. Read the starter's `README.md` before adapting names or schema. Keep the local backend available for quick UI development and use the Supabase backend for production.
+
 ## Standard Validation
 
 For this family of projects, prefer this order:
