@@ -32,7 +32,7 @@
 - Archive snapshot.
 - Record actor/email/reason/time.
 - Refresh UI after delete.
-- Use user-friendly labels: "Xem lai ho so da xoa" instead of "audit".
+- Use user-friendly labels: "Xem lại hồ sơ đã xóa" instead of "audit".
 
 ## CI Checklist
 

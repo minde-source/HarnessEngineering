@@ -57,9 +57,9 @@ powershell.exe -ExecutionPolicy Bypass -File tools/harness-engineering/scripts/h
 
 Keep updates short while working. In final messages, use concise Vietnamese:
 
-- Da lam gi.
-- Da kiem tra gi.
-- Commit hash da push.
-- Luu y van hanh neu co.
+- Đã làm gì.
+- Đã kiểm tra gì.
+- Commit hash đã push.
+- Lưu ý vận hành nếu có.
 
 Avoid long theory unless the user explicitly asks to learn.

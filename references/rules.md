@@ -18,9 +18,9 @@
 ## Error Handling Rules
 
 - Convert technical backend errors to practical messages:
-  - Missing table/schema cache -> "Chuc nang nay chua san sang. Vui long bao quan tri vien cap nhat du lieu he thong."
-  - OTP invalid -> "Ma OTP chua dung hoac da het han."
-  - Rate limited -> "Thao tac dang bi gioi han tam thoi. Vui long thu lai sau."
+  - Missing table/schema cache -> "Chức năng này chưa sẵn sàng. Vui lòng báo quản trị viên cập nhật dữ liệu hệ thống."
+  - OTP invalid -> "Mã OTP chưa đúng hoặc đã hết hạn."
+  - Rate limited -> "Thao tác đang bị giới hạn tạm thời. Vui lòng thử lại sau."
 - Keep raw errors out of low-tech UI.
 - Return structured `{ errors: string[] }` from APIs.
 
